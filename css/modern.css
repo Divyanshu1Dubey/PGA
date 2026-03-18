@@ -1330,6 +1330,18 @@ body.modern-body {
     transform: translateY(-3px);
 }
 
+/* Hero section button override - white text/border for dark hero background */
+.modern-hero .btn-outline-modern {
+    color: var(--white);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.modern-hero .btn-outline-modern:hover {
+    color: var(--red-primary);
+    border-color: var(--red-primary);
+    background: rgba(52, 152, 219, 0.15);
+}
+
 /* ---- Particle canvas ---- */
 #particles-canvas {
     position: absolute;

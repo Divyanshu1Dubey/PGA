@@ -14,6 +14,7 @@ jobs:
   deploy:
     name: Upload website files
     runs-on: ubuntu-latest
+    timeout-minutes: 30
 
     steps:
       - name: Checkout repository
@@ -36,3 +37,6 @@ jobs:
             **/.github/**
             **/README.md
             **/.cpanel.yml
+            **/Orientation -20260313T152026Z-1-001/**
+            **/Traveling 2024-20260313T152026Z-1-001/**
+            **/WYF 2024-20260313T152028Z-1-001/**

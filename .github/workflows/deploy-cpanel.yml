@@ -6,10 +6,6 @@ on:
       - main
   workflow_dispatch:
 
-concurrency:
-  group: deploy-production
-  cancel-in-progress: true
-
 jobs:
   deploy:
     name: Upload website files

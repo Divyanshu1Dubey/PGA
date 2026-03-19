@@ -2,7 +2,7 @@
 # PGA Project
 
 ![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fpathwayglobalalliance.org)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+![Open Source](https://img.shields.io/badge/Open%20Source-No-brightgreen)
 ![Languages](https://img.shields.io/badge/Languages-English%2C%20Russian-blue)
 
 **Pathway Global Alliance (PGA)** is more than a website—it's a movement. Our mission: to unite youth, bridge cultures, and ignite global change through collaboration, innovation, and inspiration.

@@ -3886,3 +3886,83 @@ body.modern-body::after {
 [data-theme="dark"] .modern-section+.modern-section {
     border-top-color: rgba(255, 255, 255, 0.03);
 }
+
+/* =============================================
+   MOBILE RESPONSIVENESS FIXES
+   ============================================= */
+@media (max-width: 992px) {
+    .cards-grid, 
+    .services-grid, 
+    .about-features, 
+    .team-grid, 
+    .footer-grid, 
+    .blog-grid,
+    .blog-grid-rest,
+    .info-blocks,
+    .about-stats,
+    .about-team-grid,
+    .event-gallery {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    
+    .hero-title {
+        font-size: clamp(32px, 5vw, 48px) !important;
+    }
+    
+    .nav-toggle {
+        display: flex !important;
+    }
+    
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--dark-bg);
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        z-index: 10000;
+    }
+    .nav-menu.active {
+        display: flex !important;
+    }
+
+    .mission-cards {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .modern-section {
+        padding: 60px 0 !important;
+    }
+    
+    .page-hero {
+        padding: 120px 0 60px !important;
+    }
+    
+    .mission-cards {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .footer-col {
+        margin-bottom: 30px !important;
+    }
+
+    .team-card, .service-item, .modern-card {
+        margin-bottom: 20px !important;
+    }
+    
+    .nav-logo img {
+        height: 40px !important;
+    }
+    
+    iframe {
+        max-width: 100% !important;
+    }
+}
